@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+*.log
+/tmp_pdf/
+/logs/
+/tasks/
+assets/yier.png
+assets/bubu.png
+node_modules/
+.claude/
+.clawhub/
+.mcp.json
+*.pdf
+*.html
+!requirements.txt
