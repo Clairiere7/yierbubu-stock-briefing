@@ -5,8 +5,6 @@ __pycache__/
 /tmp_pdf/
 /logs/
 /tasks/
-assets/yier.png
-assets/bubu.png
 node_modules/
 .claude/
 .clawhub/
