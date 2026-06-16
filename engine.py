@@ -37,7 +37,7 @@ FB = 'YHB' if 'YHB' in pdfmetrics._fonts else F
 
 R, H, G, L, W = colors.HexColor('#CC3333'), colors.HexColor('#222'), colors.HexColor('#888'), colors.HexColor('#AAA'), colors.white
 
-API_KEY = "sk-288675bc8de64b688068954335269efe"
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "sk-288675bc8de64b688068954335269efe")
 BASE_URL = "https://api.deepseek.com"
 CLIENT = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
